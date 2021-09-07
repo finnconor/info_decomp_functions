@@ -47,8 +47,8 @@ A full explaination of the decomposition and this result is provided in the abov
 This function is called in a similar manner, and will provide the same results as above, only it will also print a table of the recombine and averaged 
 values, e.g. for the above decomposition, you would also get the following table.
 
-    U1	U2	R  C
-    0	0	1  1
+    U1  U2  R  C
+    0   0   1  1
 
 The tables are related to each other as follows: the redundant information R, for example, is found by first recombining the positive and negegative 
 components to evaluate the pointwise redundant informations, i.e. r = r+ - r- for each row, which yields a new column r. The redundant information R is 
